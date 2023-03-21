@@ -1,0 +1,115 @@
+h1 {
+    font-size: 60px;
+    text-indent: 50px;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    transform: translate(0,-50%);
+    color:rgb(168, 48, 48);
+  }
+
+  p {
+    text-align:justify; 
+    text-indent: 150px;
+    text-indent: 50px;
+  
+    height: 10px;
+    color:#d81344;
+}
+
+h5 {
+
+   font-size: 60px;
+   text-indent: 580px;
+height: 7px;
+top: 10%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu{
+    background-color: rgb(1, 46, 21);
+}
+
+#menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #a70822;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(233, 149, 24);
+}
+
+#menu ul li:last-child a {
+    float: right;
+    background-color: rgb(33, 168, 16);
+    
+    }
+
+
+    .mainmenubtn {
+        background-color: rgb(4, 73, 21);
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding:20px;
+        margin-top:20px;
+    }
+    .mainmenubtn:hover {
+        background-color: rgb(0, 255, 42);
+        }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-child {
+        display: none;
+        background-color: rgb(197, 79, 25);
+        min-width: 200px;
+    }
+    .dropdown-child a {
+        color: rgb(109, 11, 11);
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
+
+    .tema1 {
+    color:rgb(4, 88, 15);
+       width: 100%;
+       text-align: center
+       
+    }
+
+ div.item {
+    color: #a70822;
+width: 370px;
+height: 440px;
+ 
+      
+	}
+
